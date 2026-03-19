@@ -163,3 +163,24 @@ def system_status():
             "Tamper-proof Logs"
         ]
     }
+
+# -----------------------------
+# WEBSOCKET CONNECTION (REAL-TIME ALERTS)
+# -----------------------------
+from fastapi import WebSocket, WebSocketDisconnect
+
+clients = []
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    clients.append(websocket)
+
+    print("Client connected. Total:", len(clients))
+
+    try:
+        while True:
+            await websocket.receive_text()  # keep connection alive
+    except WebSocketDisconnect:
+        clients.remove(websocket)
+        print("Client disconnected. Total:", len(clients))
