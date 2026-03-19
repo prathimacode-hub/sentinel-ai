@@ -189,3 +189,15 @@ async def websocket_endpoint(websocket: WebSocket):
     except WebSocketDisconnect:
         clients.remove(websocket)
         print("Client disconnected. Total:", len(clients))
+
+
+@app.post("/tab-switch")
+async def tab_switch():
+    event = {
+        "level": "MEDIUM",
+        "score": 40,
+        "explanation": "Tab switch detected"
+    }
+
+    await broadcast_alert(event)
+    return {"status": "ok"}
