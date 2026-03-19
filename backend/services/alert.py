@@ -1,44 +1,98 @@
-import datetime
+from datetime import datetime
+from typing import List
+from fastapi import WebSocket
 
-def send_alert(event):
+# -----------------------------------
+# GLOBAL WEBSOCKET CLIENT MANAGER
+# -----------------------------------
+
+class ConnectionManager:
+    def __init__(self):
+        self.active_connections: List[WebSocket] = []
+
+    async def connect(self, websocket: WebSocket):
+        await websocket.accept()
+        self.active_connections.append(websocket)
+        print(f"✅ Client connected. Total: {len(self.active_connections)}")
+
+    def disconnect(self, websocket: WebSocket):
+        if websocket in self.active_connections:
+            self.active_connections.remove(websocket)
+            print(f"❌ Client disconnected. Total: {len(self.active_connections)}")
+
+    async def broadcast(self, message: dict):
+        """
+        Send message to all connected clients
+        """
+        disconnected_clients = []
+
+        for connection in self.active_connections:
+            try:
+                await connection.send_json(message)
+            except Exception:
+                disconnected_clients.append(connection)
+
+        # Clean up dead connections
+        for conn in disconnected_clients:
+            self.disconnect(conn)
+
+
+# Create global manager instance
+manager = ConnectionManager()
+
+
+# -----------------------------------
+# ALERT FUNCTIONS
+# -----------------------------------
+
+def send_alert(event: dict):
     """
-    Send alert for HIGH severity events
+    Console + structured alert log
     """
+    timestamp = datetime.utcnow().isoformat()
 
-    timestamp = datetime.datetime.utcnow().isoformat()
-
-    alert_message = {
+    alert_data = {
         "timestamp": timestamp,
         "level": event.get("level"),
         "score": event.get("score"),
-        "message": event.get("explanation")
+        "message": event.get("explanation"),
+        "reasons": event.get("reasons", [])
     }
 
-    # Console alert (for hackathon demo)
     print("\n🚨 ALERT TRIGGERED 🚨")
-    print(alert_message)
+    print(alert_data)
 
-    # Future extensions:
-    # - WebSocket push to dashboard
-    # - Email alert
-    # - SMS alert
-    # - Push notification
-
-    return alert_message
+    return alert_data
 
 
-def send_realtime_alert(event, client_socket=None):
+async def broadcast_alert(event: dict):
     """
-    Optional: send alert to frontend via WebSocket
+    Send alert to frontend via WebSocket
     """
-    if client_socket:
-        try:
-            client_socket.send_json({
-                "type": "ALERT",
-                "data": event
-            })
-        except Exception as e:
-            print("WebSocket Error:", str(e))
+    message = {
+        "type": "ALERT",
+        "data": event
+    }
+
+    await manager.broadcast(message)
+
+
+# -----------------------------------
+# OPTIONAL: FUTURE EXTENSIONS
+# -----------------------------------
+
+def send_email_alert(event: dict):
+    """
+    Placeholder for email alerts
+    """
+    pass
+
+
+def send_sms_alert(event: dict):
+    """
+    Placeholder for SMS alerts
+    """
+    pass
 
 
 def log_alert(event):
