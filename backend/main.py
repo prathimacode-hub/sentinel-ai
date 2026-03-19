@@ -25,7 +25,7 @@ from services.alert import send_alert
 from utils.hash_utils import generate_hash
 
 # Analyze
-from services.alert import send_alert, broadcast
+from services.alert import manager, send_alert, broadcast
 import asyncio
 
 app = FastAPI(title=settings.APP_NAME, version=settings.VERSION)
