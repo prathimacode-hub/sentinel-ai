@@ -1,79 +1,102 @@
 import os
-import cv2
+import sys
 import json
+import csv
 import random
-import numpy as np
+from pathlib import Path
 
-DATASET_DIR = "../dataset/images"
-ANNOTATION_FILE = "../dataset/annotations/labels.json"
+# Add dataset folder to path
+sys.path.append(str(Path(__file__).resolve().parent.parent / "dataset"))
 
-CLASSES = [
-    "normal",
-    "phone_usage",
-    "multiple_faces",
-    "no_face",
-    "looking_away",
-    "book_usage",
-    "impersonation",
-    "obstruction",
-    "audio_cheating",
-    "tab_switch"
-]
+from synthetic_generator import create_dirs, generate_dataset
 
+# -----------------------------
+# CONFIG
+# -----------------------------
+DATASET_DIR = "../dataset"
+ANNOTATION_DIR = os.path.join(DATASET_DIR, "annotations")
+IMAGE_DIR = os.path.join(DATASET_DIR, "images")
 
-def create_dirs():
-    for cls in CLASSES:
-        os.makedirs(os.path.join(DATASET_DIR, cls), exist_ok=True)
+TRAIN_SPLIT = 0.8
+
+JSON_FILE = os.path.join(ANNOTATION_DIR, "labels.json")
+CSV_FILE = os.path.join(ANNOTATION_DIR, "events.csv")
 
 
-def generate_image(label):
-    img = np.ones((224, 224, 3), dtype=np.uint8) * 255
+# -----------------------------
+# CREATE CSV FROM JSON
+# -----------------------------
+def json_to_csv():
+    with open(JSON_FILE, "r") as f:
+        data = json.load(f)
 
-    color = (0, 0, 255)
+    with open(CSV_FILE, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["file", "label"])
 
-    text_map = {
-        "phone_usage": "PHONE",
-        "multiple_faces": "2 FACES",
-        "no_face": "NO FACE",
-        "looking_away": "LOOK AWAY",
-        "book_usage": "BOOK",
-        "impersonation": "IMPOSTER",
-        "obstruction": "BLOCKED",
-        "audio_cheating": "AUDIO",
-        "tab_switch": "TAB SWITCH"
-    }
+        for item in data:
+            writer.writerow([item["file"], item["label"]])
 
-    if label in text_map:
-        cv2.putText(img, text_map[label], (20, 120),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, color, 2)
-
-    return img
+    print("✅ CSV annotations created")
 
 
-def generate_dataset(n=200):
-    annotations = []
+# -----------------------------
+# TRAIN / VAL SPLIT
+# -----------------------------
+def split_dataset():
+    train_file = os.path.join(ANNOTATION_DIR, "train.txt")
+    val_file = os.path.join(ANNOTATION_DIR, "val.txt")
 
-    for i in range(n):
-        label = random.choice(CLASSES)
+    with open(JSON_FILE, "r") as f:
+        data = json.load(f)
 
-        img = generate_image(label)
+    random.shuffle(data)
 
-        filename = f"{label}_{i}.jpg"
-        path = os.path.join(DATASET_DIR, label, filename)
+    split_idx = int(len(data) * TRAIN_SPLIT)
 
-        cv2.imwrite(path, img)
+    train_data = data[:split_idx]
+    val_data = data[split_idx:]
 
-        annotations.append({
-            "file": path,
-            "label": label
-        })
+    with open(train_file, "w") as f:
+        for item in train_data:
+            f.write(f"{item['file']} {item['label']}\n")
 
-    with open(ANNOTATION_FILE, "w") as f:
-        json.dump(annotations, f, indent=4)
+    with open(val_file, "w") as f:
+        for item in val_data:
+            f.write(f"{item['file']} {item['label']}\n")
 
-    print("✅ Dataset generated:", n)
+    print(f"✅ Train samples: {len(train_data)}")
+    print(f"✅ Validation samples: {len(val_data)}")
 
 
+# -----------------------------
+# VERIFY DATASET
+# -----------------------------
+def verify_dataset():
+    missing = 0
+
+    with open(JSON_FILE, "r") as f:
+        data = json.load(f)
+
+    for item in data:
+        if not os.path.exists(item["file"]):
+            missing += 1
+
+    print(f"🔍 Missing files: {missing}")
+    print(f"📊 Total files: {len(data)}")
+
+
+# -----------------------------
+# MAIN
+# -----------------------------
 if __name__ == "__main__":
+    print("\n🚀 Generating Dataset...\n")
+
     create_dirs()
-    generate_dataset(300)
+    generate_dataset(800)
+
+    json_to_csv()
+    split_dataset()
+    verify_dataset()
+
+    print("\n✅ DATASET PIPELINE COMPLETE\n")
