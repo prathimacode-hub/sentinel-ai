@@ -1,17 +1,14 @@
 import React from "react";
 
-function Navbar({ status }) {
+function Navbar({ setMode }) {
   return (
     <div className="navbar">
-      <div>
-        <h1>SentinelAI 🎯</h1>
-        <p>AI Proctoring Dashboard</p>
-      </div>
+      <h1>SentinelAI 🎯</h1>
 
       <div>
-        <span className={`status-indicator ${status}`}>
-          Backend: {status.toUpperCase()}
-        </span>
+        <button onClick={() => setMode("live")}>Live</button>
+        <button onClick={() => setMode("analytics")}>Analytics</button>
+        <button onClick={() => setMode("admin")}>Admin</button>
       </div>
     </div>
   );
