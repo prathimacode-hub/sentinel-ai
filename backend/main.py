@@ -24,6 +24,10 @@ from services.alert import send_alert
 # Utils
 from utils.hash_utils import generate_hash
 
+# Analyze
+from services.alert import send_alert, broadcast
+import asyncio
+
 app = FastAPI(title=settings.APP_NAME, version=settings.VERSION)
 
 # Enable CORS (for frontend integration)
@@ -112,6 +116,7 @@ async def analyze_frame(file: UploadFile = File(...)):
         # -----------------------------
         if event["level"] == "HIGH":
             send_alert(event)
+            await broadcast(event
 
         processing_time = round(time.time() - start_time, 2)
 
