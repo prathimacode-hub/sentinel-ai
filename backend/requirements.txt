@@ -1,19 +1,54 @@
+# -----------------------------
+# 🚀 Backend Framework
+# -----------------------------
 fastapi==0.110.0
 uvicorn==0.27.0
 
+# -----------------------------
+# 📷 Computer Vision
+# -----------------------------
 opencv-python==4.9.0.80
 numpy==1.26.4
-
-torch==2.2.0
-ultralytics==8.1.0
-
 mediapipe==0.10.9
 
+# -----------------------------
+# 🧠 Deep Learning / ML
+# -----------------------------
+torch==2.2.0
+torchvision==0.17.0
+scikit-learn==1.4.0
+pandas==2.2.0
+
+# -----------------------------
+# 🧠 Object Detection (Optional Advanced)
+# -----------------------------
+ultralytics==8.1.0
+
+# -----------------------------
+# 🎭 Face Recognition
+# -----------------------------
+face-recognition==1.3.0
+Pillow==10.2.0
+
+# -----------------------------
+# 🎤 Audio Processing
+# -----------------------------
 pyaudio==0.2.13
 webrtcvad==2.0.10
 
+# -----------------------------
+# 🌐 API + Streaming + Uploads
+# -----------------------------
 python-multipart==0.0.9
+websockets==12.0
 
-# Optional but recommended
-scikit-learn==1.4.0
-pandas==2.2.0
+# -----------------------------
+# 🗄️ Database
+# -----------------------------
+sqlalchemy==2.0.25
+
+# -----------------------------
+# 📊 Visualization / Experiments
+# -----------------------------
+matplotlib==3.8.2
+seaborn==0.13.2
