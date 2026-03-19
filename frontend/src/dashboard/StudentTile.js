@@ -1,36 +1,31 @@
 import React, { useRef, useEffect, useState } from "react";
 import { analyzeFrame } from "../api";
 
-function StudentTile({ id, onEvent }) {
+function StudentTile({ id, highlight }) {
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
 
   const [status, setStatus] = useState("safe");
   const [score, setScore] = useState(0);
-  const [loading, setLoading] = useState(false);
+  const [isFlashing, setIsFlashing] = useState(false);
 
-  // Start webcam
   useEffect(() => {
     navigator.mediaDevices.getUserMedia({ video: true })
-      .then((stream) => {
+      .then(stream => {
         videoRef.current.srcObject = stream;
-      })
-      .catch(() => console.error("Camera access denied"));
+      });
   }, []);
 
-  // Frame capture loop
   useEffect(() => {
     const interval = setInterval(captureFrame, 4000);
     return () => clearInterval(interval);
   });
 
   const captureFrame = async () => {
-    if (!videoRef.current) return;
-
-    setLoading(true);
-
     const canvas = canvasRef.current;
     const video = videoRef.current;
+
+    if (!video) return;
 
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
@@ -46,22 +41,24 @@ function StudentTile({ id, onEvent }) {
 
       let currentStatus = "safe";
 
-      if (scoreVal > 60) currentStatus = "high";
-      else if (scoreVal > 30) currentStatus = "medium";
-
-      setStatus(currentStatus);
-
-      // Send event to dashboard
-      if (result?.event) {
-        onEvent(result.event);
+      if (scoreVal > 60) {
+        currentStatus = "high";
+        triggerFlash();
+      } else if (scoreVal > 30) {
+        currentStatus = "medium";
       }
 
-      setLoading(false);
+      setStatus(currentStatus);
     });
   };
 
+  const triggerFlash = () => {
+    setIsFlashing(true);
+    setTimeout(() => setIsFlashing(false), 2000);
+  };
+
   return (
-    <div className={`tile ${status}`}>
+    <div className={`tile ${status} ${highlight ? "highlight" : ""} ${isFlashing ? "flash" : ""}`}>
       <h4>Student {id}</h4>
 
       <video ref={videoRef} autoPlay muted />
@@ -70,8 +67,6 @@ function StudentTile({ id, onEvent }) {
 
       <p><b>Score:</b> {score}</p>
       <p><b>Status:</b> {status.toUpperCase()}</p>
-
-      {loading && <p>Analyzing...</p>}
     </div>
   );
 }
