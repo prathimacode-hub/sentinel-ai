@@ -1,183 +1,182 @@
-from fastapi import FastAPI, UploadFile, File
-from fastapi.middleware.cors import CORSMiddleware
-import numpy as np
+from fastapi import FastAPI, UploadFile, File, WebSocket, WebSocketDisconnect
 import cv2
-import time
+import numpy as np
+import asyncio
 
-from config import settings
-
-from database.db import engine
-from database.models import Base
-
-Base.metadata.create_all(bind=engine)
-
-# Detection Modules
-from detection.face import detect_face
+# Detection
+from detection.face import detect_faces
 from detection.object import detect_objects
 from detection.gaze import detect_gaze
 from detection.audio import detect_audio
+from detection.identity import identity_verifier
+from detection.obstruction import detect_obstruction
 
-# Engines
+# Engine
 from engine.behavior import analyze_behavior
 from engine.scoring import calculate_score
 from engine.event_engine import generate_event
 
 # Services
-from services.evidence import save_evidence
-from services.alert import send_alert
+from services.alert import manager, send_alert, broadcast_alert
+from services.storage import storage
 
 # Utils
-from utils.hash_utils import generate_hash
+from utils.video_utils import FrameBuffer
 
-# Analyze
-from services.alert import manager, send_alert, broadcast
-import asyncio
+# DB
+from database.db import engine, get_db
+from database.models import Base, Event
 
-app = FastAPI(title=settings.APP_NAME, version=settings.VERSION)
+# Init DB
+Base.metadata.create_all(bind=engine)
 
-# Enable CORS (for frontend integration)
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+app = FastAPI(title="SentinelAI Backend")
+
+# -----------------------------
+# GLOBAL BUFFER (for demo)
+# -----------------------------
+frame_buffer = FrameBuffer(max_length=30)
+
+
+# -----------------------------
+# WEBSOCKET
+# -----------------------------
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await manager.connect(websocket)
+
+    try:
+        while True:
+            await websocket.receive_text()
+    except WebSocketDisconnect:
+        manager.disconnect(websocket)
+
 
 # -----------------------------
 # HEALTH CHECK
 # -----------------------------
 @app.get("/")
 def home():
-    return {
-        "message": f"{settings.APP_NAME} is running 🚀",
-        "version": settings.VERSION
+    return {"message": "SentinelAI Running 🚀"}
+
+
+# -----------------------------
+# REGISTER STUDENT FACE
+# -----------------------------
+@app.post("/register/{student_id}")
+async def register_student(student_id: str, file: UploadFile = File(...)):
+    contents = await file.read()
+    nparr = np.frombuffer(contents, np.uint8)
+    frame = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+
+    result = identity_verifier.register_student(student_id, frame)
+    return result
+
+
+# -----------------------------
+# TAB SWITCH EVENT
+# -----------------------------
+@app.post("/tab-switch/{student_id}")
+async def tab_switch(student_id: str):
+    event = {
+        "student_id": student_id,
+        "level": "MEDIUM",
+        "score": 40,
+        "explanation": "Tab switch detected",
+        "reasons": ["tab_switch"]
     }
 
-
-# -----------------------------
-# FRAME ANALYSIS ENDPOINT
-# -----------------------------
-@app.post("/analyze-frame/")
-async def analyze_frame(file: UploadFile = File(...)):
-    start_time = time.time()
-
-    try:
-        # Read image
-        contents = await file.read()
-        np_arr = np.frombuffer(contents, np.uint8)
-        frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
-
-        if frame is None:
-            return {"error": "Invalid image file"}
-
-        # -----------------------------
-        # DETECTION LAYER
-        # -----------------------------
-        face_data = detect_face(frame)
-        object_data = detect_objects(frame)
-        gaze_data = detect_gaze(frame)
-        audio_data = detect_audio()  # simulated
-
-        # -----------------------------
-        # BEHAVIOR ANALYSIS
-        # -----------------------------
-        behavior = analyze_behavior(
-            face_data,
-            object_data,
-            gaze_data,
-            audio_data
-        )
-
-        # -----------------------------
-        # SCORING
-        # -----------------------------
-        score = calculate_score(behavior)
-
-        # -----------------------------
-        # EVENT GENERATION
-        # -----------------------------
-        event = generate_event(score, behavior)
-
-        # -----------------------------
-        # EVIDENCE CAPTURE
-        # -----------------------------
-        evidence_path = None
-        if event["level"] in ["MEDIUM", "HIGH"]:
-            evidence_path = save_evidence(frame, event["level"])
-
-        # -----------------------------
-        # HASH LOG (TAMPER-PROOF)
-        # -----------------------------
-        log_data = {
-            "behavior": behavior,
-            "score": score,
-            "event": event
-        }
-        log_hash = generate_hash(log_data)
-
-        # -----------------------------
-        # ALERT SYSTEM
-        # -----------------------------
-        if event["level"] == "HIGH":
-            send_alert(event)
-            await broadcast(event
-
-        processing_time = round(time.time() - start_time, 2)
-
-        return {
-            "status": "success",
-            "processing_time_sec": processing_time,
-            "behavior": behavior,
-            "score": score,
-            "event": event,
-            "evidence": evidence_path,
-            "log_hash": log_hash
-        }
-
-    except Exception as e:
-        return {"error": str(e)}
+    await broadcast_alert(event)
+    return {"status": "tab switch recorded"}
 
 
 # -----------------------------
-# BULK ANALYSIS (FOR VIDEO FRAMES)
+# MAIN ANALYSIS API
 # -----------------------------
-@app.post("/analyze-batch/")
-async def analyze_batch(files: list[UploadFile]):
-    results = []
+@app.post("/analyze-frame/{student_id}")
+async def analyze_frame(student_id: str, file: UploadFile = File(...)):
+    contents = await file.read()
 
-    for file in files:
-        result = await analyze_frame(file)
-        results.append(result)
+    nparr = np.frombuffer(contents, np.uint8)
+    frame = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
 
-    return {"results": results}
+    # Store frame in buffer
+    frame_buffer.add_frame(frame)
 
+    # -----------------------------
+    # DETECTION
+    # -----------------------------
+    face_data = detect_faces(frame)
+    object_data = detect_objects(frame)
+    gaze_data = detect_gaze(frame)
+    audio_data = {"speech": False}  # placeholder
 
-# -----------------------------
-# SYSTEM STATUS
-# -----------------------------
-@app.get("/status")
-def system_status():
-    return {
-        "app": settings.APP_NAME,
-        "version": settings.VERSION,
-        "status": "active",
-        "features": [
-            "Face Detection",
-            "Object Detection",
-            "Gaze Tracking",
-            "Audio Detection",
-            "Behavior Analysis",
-            "Scoring Engine",
-            "Evidence Capture",
-            "Tamper-proof Logs"
-        ]
+    identity_data = identity_verifier.verify(student_id, frame)
+    obstruction_data = detect_obstruction(frame)
+
+    # Combine
+    detection_data = {
+        "face": face_data,
+        "object": object_data,
+        "gaze": gaze_data,
+        "audio": audio_data,
+        "identity": identity_data,
+        "obstruction": obstruction_data
     }
 
-# -----------------------------
-# WEBSOCKET CONNECTION (REAL-TIME ALERTS)
-# -----------------------------
-from fastapi import WebSocket, WebSocketDisconnect
+    # -----------------------------
+    # BEHAVIOR
+    # -----------------------------
+    behavior = analyze_behavior(detection_data)
+
+    # -----------------------------
+    # SCORING
+    # -----------------------------
+    score = calculate_score(behavior)
+
+    # -----------------------------
+    # EVENT GENERATION
+    # -----------------------------
+    event = generate_event(score, behavior)
+    event["student_id"] = student_id
+
+    # -----------------------------
+    # SAVE EVIDENCE
+    # -----------------------------
+    image_path = storage.save_image(frame, prefix=student_id)
+    log_path, hash_val = storage.save_event(event)
+
+    # -----------------------------
+    # DATABASE ENTRY
+    # -----------------------------
+    db = next(get_db())
+
+    db_event = Event(
+        student_id=student_id,
+        level=event["level"],
+        score=event["score"],
+        explanation=event["explanation"],
+        reasons=event["reasons"]
+    )
+
+    db.add(db_event)
+    db.commit()
+
+    # -----------------------------
+    # ALERT
+    # -----------------------------
+    if event["level"] == "HIGH":
+        send_alert(event)
+        await broadcast_alert(event)
+
+    return {
+        "event": event,
+        "evidence": {
+            "image": image_path,
+            "log": log_path,
+            "hash": hash_val
+        }
+    }
 
 clients = []
 
