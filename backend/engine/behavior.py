@@ -52,6 +52,8 @@ def analyze_behavior(face_data: Dict, object_data: Dict, gaze_data: Dict, audio_
 
     behavior["impersonation"] = not identity_data.get("match", True)
 
+    behavior["camera_blocked"] = object_data.get("obstruction", False)
+
     behavior["possible_collaboration"] = (
         behavior["multiple_faces"] or behavior["audio_detected"]
     )
