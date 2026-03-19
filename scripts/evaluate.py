@@ -49,6 +49,10 @@ def evaluate(results):
         print(f"{cls}: {round(acc*100,2)}%")
 
 
+def event_detection_score(detected=8, total=10):
+    score = detected / total
+    print(f"\n🎯 Event Detection Score: {score*100}%")
+    
 if __name__ == "__main__":
     results = simulate_predictions(200)
     evaluate(results)
