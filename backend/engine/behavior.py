@@ -46,6 +46,12 @@ def analyze_behavior(face_data: Dict, object_data: Dict, gaze_data: Dict, audio_
         behavior["looking_away"] and behavior["audio_detected"]
     )
 
+    # add this inside analyze_behavior()
+
+    identity_data = face_data.get("identity", {})
+
+    behavior["impersonation"] = not identity_data.get("match", True)
+
     behavior["possible_collaboration"] = (
         behavior["multiple_faces"] or behavior["audio_detected"]
     )
