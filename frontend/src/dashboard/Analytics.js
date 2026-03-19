@@ -6,6 +6,11 @@ function Analytics({ events }) {
   const high = events.filter(e => e.level === "HIGH").length;
   const medium = events.filter(e => e.level === "MEDIUM").length;
 
+  const riskScore =
+  (high * 2 + medium) / (total || 1);
+
+  <p>Risk Score: {riskScore.toFixed(2)}</p>
+
   return (
     <div className="analytics">
       <h2>📊 Analytics Dashboard</h2>
