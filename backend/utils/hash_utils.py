@@ -23,15 +23,17 @@ def generate_hash(data):
 # -----------------------------
 # OPTIONAL: CHAINED HASHING (BLOCKCHAIN STYLE)
 # -----------------------------
+
 def generate_chain_hash(current_data, previous_hash=""):
     """
     Create chained hash for tamper-proof logs
     """
+    import json
 
-    combined = {
-        "previous_hash": previous_hash,
-        "current_data": current_data
-    }
+    combined = json.dumps({
+        "prev": previous_hash,
+        "data": current_data
+    }, sort_keys=True)
 
     return generate_hash(combined)
 
