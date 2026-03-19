@@ -30,3 +30,10 @@ def detect_objects(frame):
         "objects": detected_objects,
         "object_count": len(detected_objects)
     }
+
+def detect_obstruction(frame):
+    brightness = np.mean(frame)
+
+    return {
+        "obstruction": brightness < 40
+    }
