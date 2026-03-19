@@ -1,7 +1,18 @@
 from ultralytics import YOLO
+import os
 
 # Load YOLO model (lightweight for hackathon)
-model = YOLO("yolov8n.pt")
+MODEL_PATH = "models/object_detection/yolov8.pt"
+
+class ObjectDetector:
+    def __init__(self):
+        # Auto download if not present
+        if not os.path.exists(MODEL_PATH):
+            print("⬇ Downloading YOLO model...")
+            self.model = YOLO("yolov8n.pt")   # auto-download
+        else:
+            print("✅ Loading local YOLO model...")
+            self.model = YOLO(MODEL_PATH)
 
 TARGET_OBJECTS = [
     "cell phone",
@@ -10,26 +21,18 @@ TARGET_OBJECTS = [
     "person"
 ]
 
-def detect_objects(frame):
-    """
-    Detect objects like phone, book, etc.
-    """
-    results = model(frame, verbose=False)
+def detect(self, frame):
+    results = self.model(frame)
 
-    detected_objects = []
-
+    detections = []
     for r in results:
         for box in r.boxes:
             cls_id = int(box.cls[0])
-            label = model.names[cls_id]
+            label = self.model.names[cls_id]
 
-            if label in TARGET_OBJECTS:
-                detected_objects.append(label)
+            detections.append(label)
 
-    return {
-        "objects": detected_objects,
-        "object_count": len(detected_objects)
-    }
+    return detections
 
 def detect_obstruction(frame):
     brightness = np.mean(frame)
@@ -37,3 +40,6 @@ def detect_obstruction(frame):
     return {
         "obstruction": brightness < 40
     }
+
+# Singleton
+object_detector = ObjectDetector()
