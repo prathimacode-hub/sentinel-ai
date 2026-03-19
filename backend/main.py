@@ -6,6 +6,11 @@ import time
 
 from config import settings
 
+from database.db import engine
+from database.models import Base
+
+Base.metadata.create_all(bind=engine)
+
 # Detection Modules
 from detection.face import detect_face
 from detection.object import detect_objects
