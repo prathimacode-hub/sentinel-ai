@@ -1,0 +1,136 @@
+/* -----------------------------
+   GLOBAL STYLES
+----------------------------- */
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: linear-gradient(to right, #0f172a, #020617);
+  color: #ffffff;
+}
+
+/* -----------------------------
+   DASHBOARD
+----------------------------- */
+.dashboard {
+  padding: 20px;
+}
+
+/* -----------------------------
+   GRID LAYOUT
+----------------------------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+/* -----------------------------
+   STUDENT TILE
+----------------------------- */
+.tile {
+  background: #1e293b;
+  padding: 12px;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.tile:hover {
+  transform: scale(1.02);
+}
+
+/* STATUS COLORS */
+.safe {
+  border: 2px solid #22c55e;
+}
+
+.medium {
+  border: 2px solid #f59e0b;
+}
+
+.high {
+  border: 2px solid #ef4444;
+}
+
+/* -----------------------------
+   VIDEO
+----------------------------- */
+video {
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* -----------------------------
+   ALERT PANEL
+----------------------------- */
+.alert-panel {
+  margin-top: 20px;
+  padding: 15px;
+  background: #111827;
+  border-radius: 12px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* ALERT ITEM */
+.alert-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid red;
+  background: #1f2937;
+  border-radius: 6px;
+}
+
+/* -----------------------------
+   NAVBAR
+----------------------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.status-indicator {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+/* STATUS COLORS */
+.online {
+  background: #22c55e;
+}
+
+.offline {
+  background: #ef4444;
+}
+
+/* -----------------------------
+   TEXT STYLES
+----------------------------- */
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* -----------------------------
+   SCROLLBAR (nice UI touch)
+----------------------------- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 10px;
+}
