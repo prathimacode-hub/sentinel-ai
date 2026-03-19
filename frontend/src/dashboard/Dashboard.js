@@ -3,22 +3,51 @@ import StudentTile from "./StudentTile";
 import AlertsPanel from "./AlertsPanel";
 import Timeline from "./Timeline";
 import Navbar from "./Navbar";
-import { checkBackendStatus } from "../api";
+import Analytics from "./Analytics";
+import AdminPanel from "./AdminPanel";
+
+import { connectSocket } from "../socket";
 
 function Dashboard() {
   const [alerts, setAlerts] = useState([]);
   const [events, setEvents] = useState([]);
-  const [backendStatus, setBackendStatus] = useState("offline");
+  const [mode, setMode] = useState("live");
 
-  // Check backend health
+  // 🔥 Real-time WebSocket
   useEffect(() => {
-    const checkStatus = async () => {
-      const res = await checkBackendStatus();
-      setBackendStatus(res.message ? "online" : "offline");
-    };
+    connectSocket((data) => {
+      if (data.type === "ALERT") {
+        setAlerts((prev) => [data.data, ...prev]);
+        setEvents((prev) => [data.data, ...prev]);
+      }
+    });
+  }, []);
 
-    checkStatus();
-    const interval = setInterval(checkStatus, 5000);
+  return (
+    <div className="dashboard">
+      <Navbar setMode={setMode} />
+
+      {mode === "live" && (
+        <>
+          <h2>🎥 Live Monitoring</h2>
+          <div className="grid">
+            {[1,2,3,4,5,6].map(id => (
+              <StudentTile key={id} id={id} />
+            ))}
+          </div>
+
+          <AlertsPanel alerts={alerts} />
+          <Timeline events={events} />
+        </>
+      )}
+
+      {mode === "analytics" && <Analytics events={events} />}
+      {mode === "admin" && <AdminPanel />}
+    </div>
+  );
+}
+
+export default Dashboard;Interval(checkStatus, 5000);
     return () => clearInterval(interval);
   }, []);
 
