@@ -51,7 +51,7 @@ function StudentTile({ id, highlight }) {
       setStatus(currentStatus);
     });
   };
-
+  
   const triggerFlash = () => {
     setIsFlashing(true);
     setTimeout(() => setIsFlashing(false), 2000);
@@ -72,3 +72,11 @@ function StudentTile({ id, highlight }) {
 }
 
 export default StudentTile;
+
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) {
+    fetch("http://127.0.0.1:8000/tab-switch", {
+      method: "POST"
+    });
+  }
+})
