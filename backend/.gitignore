@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Models (large files optional)
+models/object_detection/*.pt
+models/classifier/*.pth
+
+# Dataset (optional if large)
+dataset/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+.env
+__pycache__/
+*.pyc
+logs/
+evidence/
