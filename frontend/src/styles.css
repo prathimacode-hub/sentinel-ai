@@ -1,0 +1,331 @@
+/* -----------------------------
+   GLOBAL STYLES
+----------------------------- */
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: linear-gradient(to right, #0f172a, #020617);
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+/* -----------------------------
+   DASHBOARD
+----------------------------- */
+.dashboard {
+  padding: 20px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* -----------------------------
+   CONNECTION STATUS
+----------------------------- */
+.connection-status {
+  margin-bottom: 15px;
+  padding: 8px 12px;
+  background: #1f2937;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 13px;
+  border: 1px solid #38bdf8;
+}
+
+/* -----------------------------
+   GRID LAYOUT
+----------------------------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 10px;
+}
+
+/* -----------------------------
+   STUDENT TILE
+----------------------------- */
+.tile {
+  background: #1e293b;
+  padding: 12px;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.tile:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+/* STATUS COLORS */
+.safe {
+  border: 2px solid #22c55e;
+}
+
+.medium {
+  border: 2px solid #f59e0b;
+}
+
+.high {
+  border: 2px solid #ef4444;
+}
+
+/* -----------------------------
+   VIDEO
+----------------------------- */
+video {
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 8px;
+  max-width: 500px;
+  background: black;
+}
+
+/* -----------------------------
+   ALERT PANEL
+----------------------------- */
+.alert-panel {
+  margin-top: 20px;
+  padding: 15px;
+  background: #111827;
+  border-radius: 12px;
+  max-height: 400px; /* increased for demo */
+  overflow-y: auto;
+  border: 1px solid #334155;
+  scroll-behavior: smooth; /* smooth scroll to latest alert */
+}
+
+/* ALERT ITEM */
+.alert-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+}
+
+.alert-item:hover {
+  transform: scale(1.02);
+}
+
+/* ALERT STYLES BY LEVEL */
+.high-alert {
+  background-color: #ff4d4d;
+  color: white;
+  border-left: 4px solid #ef4444;
+  animation: flashRed 1s infinite;
+  box-shadow: 0 0 15px #ff1a1a;
+}
+
+.medium-alert {
+  background-color: #ffcc00;
+  color: black;
+  border-left: 4px solid #facc15;
+  animation: glowOrange 2s infinite;
+  box-shadow: 0 0 10px #ff9900;
+}
+
+.low-alert {
+  background-color: #22c55e;
+  color: white;
+  border-left: 4px solid #22c55e;
+}
+
+/* -----------------------------
+   FLASHING & GLOW ANIMATIONS
+----------------------------- */
+@keyframes flashRed {
+  0%, 100% { background-color: #ff4d4d; }
+  50% { background-color: #ff1a1a; }
+}
+
+@keyframes glowOrange {
+  0%, 100% { box-shadow: 0 0 10px #ff9900; }
+  50% { box-shadow: 0 0 20px #ffcc00; }
+}
+
+/* Tile highlight for HIGH risk */
+.tile.highlight {
+  border: 3px solid red !important;
+  box-shadow: 0 0 20px rgba(255,0,0,0.7);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Tile flashing effect */
+.tile.flash {
+  animation: tileFlash 1s ease-in-out infinite;
+}
+
+@keyframes tileFlash {
+  0%, 100% { box-shadow: 0 0 10px 2px rgba(255, 0, 0, 0.6); }
+  50% { box-shadow: 0 0 25px 5px rgba(255, 0, 0, 1); }
+}
+
+/* -----------------------------
+   TIMELINE
+----------------------------- */
+.timeline {
+  margin-top: 20px;
+  padding: 15px;
+  background: #111827;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.session-item {
+  margin-top: 10px;
+  background: #334155;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.session-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px #38bdf8;
+}
+
+/* -----------------------------
+   EVIDENCE IMAGE
+----------------------------- */
+.evidence-box img,
+.alert-item img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 5px;
+  display: block;
+  border: 2px solid #38bdf8;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.evidence-box img:hover,
+.alert-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+/* -----------------------------
+   NAVBAR
+----------------------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding: 12px 18px;
+  background: #020617;
+  border-radius: 10px;
+  border: 1px solid #334155;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #38bdf8;
+}
+
+.navbar button {
+  margin-left: 10px;
+}
+
+.status-indicator {
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.online {
+  background: #22c55e;
+}
+
+.offline {
+  background: #ef4444;
+}
+
+/* -----------------------------
+   FILTERS
+----------------------------- */
+.filters {
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  background: #020617;
+  border-radius: 10px;
+  border: 1px solid #334155;
+}
+
+input,
+select {
+  margin: 5px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #475569;
+  background: #1f2937;
+  color: white;
+  width: 180px;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
+
+/* -----------------------------
+   BUTTONS
+----------------------------- */
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+}
+
+/* -----------------------------
+   ANALYTICS & ADMIN PANEL
+----------------------------- */
+.analytics, .admin-panel {
+  padding: 20px;
+  background: #020617;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+/* -----------------------------
+   SCROLLBAR
+----------------------------- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 10px;
+}
+
+/* -----------------------------
+   RESPONSIVE DESIGN
+----------------------------- */
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+  .navbar { flex-direction: column; align-items: flex-start; }
+  .filters { flex-direction: column; }
+  input, select { width: 100%; }
+}
