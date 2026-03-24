@@ -71,3 +71,4 @@ class FPSCounter:
     def get_fps(self):
         elapsed = time.time() - self.start_time
         return self.frames / elapsed if elapsed > 0 else 0
+
