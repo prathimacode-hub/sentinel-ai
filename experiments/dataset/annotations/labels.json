@@ -1,0 +1,2502 @@
+[
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_0.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_1.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_2.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_3.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_4.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_5.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_6.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_7.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_8.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_9.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_10.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_11.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_12.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:57.997124"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_13.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.010647"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_14.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.011695"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_15.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.013374"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_16.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_17.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_18.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_19.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_20.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_21.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_22.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_23.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_24.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_25.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_26.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_27.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.014121"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_28.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.028292"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_29.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.029181"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_30.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_31.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_32.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_33.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_34.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_35.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_36.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_37.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_38.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_39.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_40.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_41.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_42.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_43.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.030741"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_44.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.044012"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_45.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.046010"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_46.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.047010"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_47.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.048009"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_48.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.049008"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_49.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.050008"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_50.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.051036"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_51.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.051036"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_52.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.051036"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_53.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.051036"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_54.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.051036"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_55.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.051036"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_56.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.051036"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_57.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.051036"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_58.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.051036"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_59.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.051036"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_60.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.060934"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_61.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.062439"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_62.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.063319"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_63.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_64.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_65.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_66.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_67.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_68.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_69.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_70.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_71.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_72.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_73.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_74.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.064160"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_75.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.078251"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_76.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.079449"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_77.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.080073"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_78.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.081073"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_79.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.082073"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_80.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.084071"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_81.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.084848"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_82.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.085412"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_83.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.085412"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_84.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.085412"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_85.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.085412"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_86.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.085412"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_87.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.085412"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_88.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.085412"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_89.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.085412"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_90.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.093897"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_91.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.094895"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_92.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.096275"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_93.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_94.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_95.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_96.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_97.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_98.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_99.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_100.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_101.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_102.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_103.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_104.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_105.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.098427"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_106.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.110550"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_107.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.111552"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_108.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.112750"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_109.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_110.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_111.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_112.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_113.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_114.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_115.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_116.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_117.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_118.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_119.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_120.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_121.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_122.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_123.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_124.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_125.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.113518"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_126.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.128214"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_127.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.129095"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_128.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.130095"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_129.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.131096"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_130.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.132095"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_131.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.133093"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_132.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.134092"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_133.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.135092"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_134.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.136093"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_135.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.137090"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_136.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.138090"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_137.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.139089"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_138.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.140089"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_139.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.141107"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_140.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.143087"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_141.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.143087"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_142.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.145086"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_143.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.146086"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_144.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.146086"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_145.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.147085"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_146.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.148086"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_147.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.149084"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_148.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.150083"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_149.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.151083"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_150.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.152084"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_151.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.153083"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_152.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.153083"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_153.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.154082"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_154.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.155094"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_155.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.156079"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_156.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.157084"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_157.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.158079"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_158.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.159079"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_159.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.160505"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_160.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.162134"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_161.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_162.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_163.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_164.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_165.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_166.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_167.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_168.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_169.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_170.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_171.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_172.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_173.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_174.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_175.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.163314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_176.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.177150"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_177.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.179148"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_178.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.180496"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_179.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.181497"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_180.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_181.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_182.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_183.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_184.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_185.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_186.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_187.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_188.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_189.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_190.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_191.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_192.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.181735"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_193.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.193838"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_194.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.194839"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_195.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.195955"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_196.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_197.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_198.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_199.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_200.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_201.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_202.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_203.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_204.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_205.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_206.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_207.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_208.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_209.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_210.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_211.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_212.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.196690"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_213.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_214.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_215.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_216.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_217.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_218.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_219.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_220.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_221.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_222.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_223.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_224.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_225.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_226.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_227.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_228.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_229.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.212314"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_230.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_231.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_232.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_233.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_234.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_235.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_236.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_237.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_238.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_239.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_240.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_241.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_242.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_243.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_244.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_245.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_246.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_247.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_248.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.227939"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_249.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.243804"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_250.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_251.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_252.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_253.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_254.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_255.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_256.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_257.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_258.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_259.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_260.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_261.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_262.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_263.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_264.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.245177"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_265.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.260409"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_266.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.261408"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_267.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_268.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_269.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_270.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_271.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_272.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_273.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_274.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_275.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_276.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_277.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_278.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_279.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_280.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_281.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_282.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.262026"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_283.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.277072"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_284.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.278170"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_285.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.278170"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_286.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.279170"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_287.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.280169"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_288.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_289.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_290.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_291.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_292.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_293.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_294.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_295.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_296.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_297.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_298.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_299.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_300.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_301.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_302.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.281294"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_303.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.293745"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_304.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.294745"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_305.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_306.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_307.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_308.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_309.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_310.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_311.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_312.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_313.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_314.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_315.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_316.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_317.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_318.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_319.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_320.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_321.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.295320"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_322.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_323.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_324.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_325.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_326.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_327.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_328.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_329.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_330.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_331.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_332.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_333.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_334.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_335.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_336.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_337.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_338.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_339.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.310946"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_340.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_341.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_342.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_343.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_344.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_345.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_346.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_347.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_348.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_349.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_350.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_351.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_352.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_353.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_354.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_355.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.326569"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_356.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_357.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_358.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_359.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_360.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_361.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_362.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_363.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_364.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_365.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_366.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_367.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_368.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_369.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_370.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_371.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_372.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.342192"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_373.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_374.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_375.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_376.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_377.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_378.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_379.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_380.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_381.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_382.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_383.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_384.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_385.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_386.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_387.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_388.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_389.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_390.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_391.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_392.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.357816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_393.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.373541"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_394.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.374541"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_395.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.375541"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_396.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.375541"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_397.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.376540"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_398.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.377539"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_399.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.378538"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_400.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_401.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_402.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_403.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_404.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_405.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_406.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_407.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_408.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_409.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_410.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_411.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_412.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_413.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_414.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_415.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_416.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.379567"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_417.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_418.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_419.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_420.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_421.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_422.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_423.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_424.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_425.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_426.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_427.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_428.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_429.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_430.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_431.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_432.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.395193"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_433.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_434.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_435.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_436.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_437.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_438.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_439.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_440.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_441.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_442.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_443.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_444.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_445.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_446.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_447.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_448.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_449.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_450.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.410816"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_451.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_452.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_453.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_454.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_455.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_456.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_457.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_458.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_459.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_460.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_461.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_462.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_463.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_464.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_465.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_466.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_467.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.426440"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_468.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_469.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_470.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_471.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_472.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_473.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\audio_cheating\\audio_cheating_474.jpg",
+        "label": "audio_cheating",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_475.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_476.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_477.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_478.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\looking_away\\looking_away_479.jpg",
+        "label": "looking_away",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_480.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_481.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_482.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_483.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.442064"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_484.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.457844"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\normal\\normal_485.jpg",
+        "label": "normal",
+        "timestamp": "2026-03-20T09:59:58.458843"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_486.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.458843"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\impersonation\\impersonation_487.jpg",
+        "label": "impersonation",
+        "timestamp": "2026-03-20T09:59:58.460843"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_488.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.461841"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\phone_usage\\phone_usage_489.jpg",
+        "label": "phone_usage",
+        "timestamp": "2026-03-20T09:59:58.461841"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\tab_switch\\tab_switch_490.jpg",
+        "label": "tab_switch",
+        "timestamp": "2026-03-20T09:59:58.462841"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_491.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.463841"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_492.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.464839"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_493.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.464839"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_494.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.465839"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_495.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.466839"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\obstruction\\obstruction_496.jpg",
+        "label": "obstruction",
+        "timestamp": "2026-03-20T09:59:58.467839"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\no_face\\no_face_497.jpg",
+        "label": "no_face",
+        "timestamp": "2026-03-20T09:59:58.468837"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\multiple_faces\\multiple_faces_498.jpg",
+        "label": "multiple_faces",
+        "timestamp": "2026-03-20T09:59:58.468837"
+    },
+    {
+        "file": "c:\\Users\\DELL\\Desktop\\sentinel-ai\\sentinel-ai\\experiments\\dataset\\images\\book_usage\\book_usage_499.jpg",
+        "label": "book_usage",
+        "timestamp": "2026-03-20T09:59:58.469837"
+    }
+]
