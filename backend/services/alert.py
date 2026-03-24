@@ -100,3 +100,4 @@ def log_alert(event):
     Log alerts separately (optional)
     """
     print(f"[LOG] {event}")
+}")
