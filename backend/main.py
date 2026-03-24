@@ -8,13 +8,11 @@ import cv2
 import asyncio
 import base64
 import logging
-import numpy as np
-from typing import Dict, Any
+from typing import Dict
 from threading import Lock
 
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect, Depends
+from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 
 from backend.services.multi_camera_manager import MultiCameraManager
@@ -22,11 +20,14 @@ from backend.services.recording_manager import RecordingManager
 from backend.engine.event_engine import event_engine
 from backend.utils.hash_utils import generate_hash, generate_chain_hash
 
+# -----------------------------
+# LOGGER
+# -----------------------------
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("SentinelAI")
 
 # -----------------------------
-# DIR SETUP
+# DIRECTORY SETUP
 # -----------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 EVIDENCE_DIR = os.path.join(BASE_DIR, "evidence")
@@ -43,7 +44,7 @@ ANALYTICS_FILE = os.path.join(LOGS_DIR, "analytics.json")
 CAMERA_REGISTRY = os.path.join(CONFIG_DIR, "camera_registry.json")
 
 # -----------------------------
-# GLOBALS
+# GLOBAL VARIABLES
 # -----------------------------
 SIMULATION_ENABLED = True
 SIMULATION_STUDENT_COUNT = 30
@@ -58,7 +59,12 @@ evidence_lock = Lock()
 # -----------------------------
 # RECORDING MANAGER
 # -----------------------------
-recording_manager = RecordingManager(buffer_sec=5, fps=10)
+recording_manager = RecordingManager(
+    evidence_dir=EVIDENCE_DIR,
+    evidence_lock=evidence_lock,
+    buffer_sec=5,
+    fps=10
+)
 
 # -----------------------------
 # FASTAPI INIT
@@ -239,11 +245,11 @@ async def live_camera_loop():
             except:
                 result = event_engine.process_frame(student_id, frame, simulate=True)
 
-            # Overlay faces
+            # Overlay faces for demo visualization
             for f in result.get("faces", []):
-                bbox = f.get("bbox", [50,50,150,150])
-                x1,y1,x2,y2 = bbox
-                cv2.rectangle(frame,(x1,y1),(x2,y2),(0,255,0),2)
+                bbox = f.get("bbox", [50, 50, 150, 150])
+                x1, y1, x2, y2 = bbox
+                cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
 
             _, buffer = cv2.imencode(".jpg", frame)
             frame_bytes = buffer.tobytes()
@@ -253,8 +259,8 @@ async def live_camera_loop():
             # Broadcast student frame
             await broadcast_student_frame(student_id, frame_bytes)
 
-            # --- HIGH/MEDIUM ALERT HANDLING ---
-            if result["risk_level"] in ["HIGH","MEDIUM"]:
+            # Handle HIGH/MEDIUM risk events
+            if result["risk_level"] in ["HIGH", "MEDIUM"]:
                 event_type = result.get("explanation", "AI_Alert").replace(" ", "_")
                 event_info = recording_manager.save_event(student_id, frame, event_type)
 
@@ -265,7 +271,7 @@ async def live_camera_loop():
                     "student_id": student_id,
                     "type": "ALERT",
                     "level": result["risk_level"],
-                    "event": result.get("explanation","AI Alert"),
+                    "event": result.get("explanation", "AI Alert"),
                     "timestamp": int(time.time()),
                     "frame": frame_b64,
                     "snapshot_file": event_info.get("snapshot_file"),
