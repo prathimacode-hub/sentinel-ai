@@ -55,7 +55,7 @@ class MultiCameraManager:
 
     def _prepare_simulation_frames(self):
         """Load demo frames for simulation"""
-        base_path = Path("simulation_data/demo_frames")
+        base_path = Path("services/student_database")
         all_frames = sorted(base_path.glob("*.jpg"))
         if not all_frames:
             logger.warning("[MultiCameraManager] No simulation frames found! Using black frames.")
