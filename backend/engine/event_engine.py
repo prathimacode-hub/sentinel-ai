@@ -10,58 +10,51 @@ import cv2
 logger = logging.getLogger("event_engine")
 logging.basicConfig(level=logging.INFO)
 
-# -----------------------------
-# EVENT ENGINE CLASS
-# -----------------------------
 class EventEngine:
     """
-    Demo-ready event engine:
-    - Aggregates events per student
-    - Simulates AI alerts (multiple faces, looking away, phone detected)
-    - Attaches base64 snapshot from MultiCameraManager frame
-    - Ready to push to WebSocket frontend
+    Event engine for multi-student AI proctoring:
+    - Tracks per-student events and latest frames
+    - Processes frames for simulated AI alerts
+    - Supports HIGH/MEDIUM/LOW risk levels
+    - Generates detailed malpractice reports
     """
 
     def __init__(self):
         self.last_events = {}      # student_id -> last event dict
         self.students_frames = {}  # student_id -> latest base64 frame
+        self.student_event_history = {}  # student_id -> list of events
         self.running = False
         self.lock = threading.Lock()
 
     # -----------------------------
-    # REGISTER FRAME (called by MultiCameraManager)
+    # FRAME REGISTRATION
     # -----------------------------
     def update_frame(self, student_id, b64_frame):
-        """Store latest frame for alert snapshots"""
+        """Store latest frame for alerts or snapshots"""
         with self.lock:
             self.students_frames[student_id] = b64_frame
 
     # -----------------------------
-    # START / STOP SIMULATION
+    # SIMULATION CONTROL
     # -----------------------------
     def start_demo_mode(self, student_ids):
-        """
-        Start background thread to randomly generate alerts for demo
-        student_ids: list of student_ids to simulate
-        """
+        """Start random alert simulation for a list of students"""
         self.running = True
         t = threading.Thread(target=self._simulate_alerts_loop, args=(student_ids,), daemon=True)
         t.start()
-        logger.info("[EventEngine] Demo mode started for students")
+        logger.info(f"[EventEngine] Demo mode started for {len(student_ids)} students")
 
     def stop_demo_mode(self):
         self.running = False
         logger.info("[EventEngine] Demo mode stopped")
 
     # -----------------------------
-    # SIMULATION LOOP
+    # RANDOM ALERT LOOP (SIMULATION)
     # -----------------------------
     def _simulate_alerts_loop(self, student_ids):
         while self.running:
             student_id = random.choice(student_ids)
             timestamp = int(time.time())
-
-            # Random event generation
             event_type, level, message = random.choice([
                 ("MULTIPLE_FACES", "HIGH", "Multiple faces detected"),
                 ("LOOKING_AWAY", "MEDIUM", "Student looking away"),
@@ -80,47 +73,46 @@ class EventEngine:
                     "frame": snapshot
                 }
                 self.last_events[student_id] = event
+                self.student_event_history.setdefault(student_id, []).append(event)
 
             logger.info(f"[EventEngine] Demo Alert: {student_id} | {message}")
-
-            # Sleep 3–8 seconds before next random alert
             time.sleep(random.randint(3, 8))
 
     # -----------------------------
-    # GET ALERTS (for WebSocket)
+    # ALERT RETRIEVAL
     # -----------------------------
     def get_latest_alert(self, student_id):
-        """Return latest alert for a specific student"""
+        """Get latest alert for a specific student"""
         with self.lock:
-            return self.last_events.get(student_id, None)
+            return self.last_events.get(student_id)
 
     def get_all_alerts(self):
-        """Return all latest alerts"""
+        """Get latest alerts for all students"""
         with self.lock:
             return self.last_events.copy()
 
     # -----------------------------
-    # PROCESS FRAME (real-time frame analysis)
+    # PROCESS FRAME (REAL-TIME)
     # -----------------------------
     def process_frame(self, student_id, frame=None, simulate=True):
         """
-        Demo-friendly frame processor:
-        - Updates frame in memory
-        - Returns simulated analysis results for overlays
-        - Includes risk_level and explanation for alert handling
+        Process a frame:
+        - Updates latest base64 frame
+        - Returns a risk assessment with explanation
+        - Saves event history
         """
         if frame is not None:
             _, buffer = cv2.imencode(".jpg", frame)
             b64_frame = base64.b64encode(buffer).decode()
             self.update_frame(student_id, b64_frame)
 
-        # Simulated analysis
+        # Simulated detection
         faces = random.choice([0, 1, 2])
         gaze = random.choice(["looking_center", "looking_left", "looking_right", "looking_away"])
         objects = random.sample(["cell phone", "book", "calculator"], k=random.randint(0, 2))
         audio_detected = random.random() < 0.3
 
-        # Risk logic
+        # Determine risk level
         if faces != 1:
             risk_level = "HIGH"
             explanation = "MULTIPLE_FACES"
@@ -134,6 +126,20 @@ class EventEngine:
             risk_level = "LOW"
             explanation = "NORMAL"
 
+        timestamp = int(time.time())
+        event = {
+            "student_id": student_id,
+            "type": "ALERT",
+            "level": risk_level,
+            "event": explanation,
+            "timestamp": timestamp,
+            "frame": self.students_frames.get(student_id)
+        }
+
+        with self.lock:
+            self.last_events[student_id] = event
+            self.student_event_history.setdefault(student_id, []).append(event)
+
         logger.info(f"[EventEngine] Frame processed: {student_id} | Risk: {risk_level} | Explanation: {explanation}")
 
         return {
@@ -146,32 +152,28 @@ class EventEngine:
             "explanation": explanation
         }
 
+    # -----------------------------
+    # STUDENT MALPRACTICE REPORT
+    # -----------------------------
+    def generate_malpractice_report(self):
+        """
+        Returns a full report of all students with events, timestamps, risk levels, and explanations
+        """
+        with self.lock:
+            report = {}
+            for student_id, events in self.student_event_history.items():
+                report[student_id] = [
+                    {
+                        "timestamp": e["timestamp"],
+                        "risk_level": e["level"],
+                        "explanation": e["event"]
+                    }
+                    for e in events
+                ]
+            return report
+
+
 # -----------------------------
 # SINGLETON INSTANCE
 # -----------------------------
 event_engine = EventEngine()
-
-# -----------------------------
-# DEMO USAGE
-# -----------------------------
-if __name__ == "__main__":
-    import cv2
-    import os
-
-    student_ids = [f"student_{i+1}" for i in range(10)]
-    event_engine.start_demo_mode(student_ids)
-
-    demo_path = "services/student_database"
-    frame_files = sorted([os.path.join(demo_path, f) for f in os.listdir(demo_path) if f.endswith(".jpg")])
-    idx = 0
-    try:
-        while True:
-            for student_id in student_ids:
-                if frame_files:
-                    frame = cv2.imread(frame_files[idx % len(frame_files)])
-                    event_engine.process_frame(student_id, frame)
-            idx += 1
-            time.sleep(0.5)
-    except KeyboardInterrupt:
-        event_engine.stop_demo_mode()
-        logger.info("Demo stopped")
