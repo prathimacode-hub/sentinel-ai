@@ -1,0 +1,5 @@
+{
+    "average_latency_ms": 450,
+    "max_latency_ms": 900,
+    "real_time_capable": true
+}

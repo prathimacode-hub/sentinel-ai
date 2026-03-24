@@ -1,0 +1,16 @@
+{
+    "total_images": 800,
+    "num_classes": 10,
+    "class_distribution": {
+        "tab_switch": 96,
+        "book_usage": 83,
+        "no_face": 74,
+        "multiple_faces": 66,
+        "normal": 75,
+        "looking_away": 104,
+        "impersonation": 74,
+        "audio_cheating": 67,
+        "obstruction": 67,
+        "phone_usage": 94
+    }
+}

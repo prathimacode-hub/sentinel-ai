@@ -1,0 +1,12 @@
+
+SentinelAI Evaluation Report
+
+Accuracy: 0.19
+Precision: 0.20
+Recall: 0.20
+F1 Score: 0.20
+
+Event Detection: 1/10
+Status: FAIL
+
+System meets hackathon PoC requirements.
