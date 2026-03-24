@@ -39,3 +39,8 @@ settings = Settings()
 
 # Ensure directories exist
 os.makedirs(settings.EVIDENCE_DIR, exist_ok=True)
+
+settings = Settings()
+
+# Ensure directories exist
+os.makedirs(settings.EVIDENCE_DIR, exist_ok=True)
