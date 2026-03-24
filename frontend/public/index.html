@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SentinelAI - Student Exam Monitoring</title>
+  <style>
+    body {
+      background: #0f172a;
+      color: white;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .student-card {
+      background: #1e293b;
+      border: 2px solid #334155;
+      border-radius: 8px;
+      padding: 5px;
+      text-align: center;
+      position: relative;
+      transition: border 0.3s;
+    }
+
+    .student-card img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .risk-bar {
+      height: 6px;
+      border-radius: 3px;
+      margin-top: 5px;
+      background: #334155;
+      overflow: hidden;
+    }
+
+    .risk-fill {
+      height: 100%;
+      width: 0%;
+      transition: width 0.5s;
+    }
+
+    .risk-high { border-color: #ef4444; }
+    .risk-medium { border-color: #f97316; }
+    .risk-low { border-color: #22c55e; }
+
+    #alerts {
+      max-height: 300px;
+      overflow-y: auto;
+      margin: 20px;
+      padding: 10px;
+      border: 1px solid #334155;
+      background: #1e293b;
+      border-radius: 6px;
+    }
+
+    .alert {
+      border-bottom:1px solid #334155;
+      padding:5px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .alert img {
+      width:60px;
+      height:40px;
+      object-fit:cover;
+      border-radius:4px;
+    }
+
+    .alert .info { flex:1; }
+    .level-high { color:#ef4444; font-weight:bold; }
+    .level-medium { color:#f97316; font-weight:bold; }
+    .level-low { color:#22c55e; font-weight:bold; }
+
+    @media(max-width:1200px) { .grid { grid-template-columns: repeat(4,1fr); } }
+    @media(max-width:900px) { .grid { grid-template-columns: repeat(3,1fr); } }
+    @media(max-width:600px) { .grid { grid-template-columns: repeat(2,1fr); } }
+    @media(max-width:400px) { .grid { grid-template-columns: 1fr; } }
+
+  </style>
+</head>
+<body>
+
+<h1>SentinelAI Live Dashboard</h1>
+<div class="grid" id="students-grid"></div>
+
+<h2>AI Alerts</h2>
+<div id="alerts"></div>
+
+<audio id="alert-sound" src="https://www.soundjay.com/button/sounds/beep-07.mp3" preload="auto"></audio>
+
+<script>
+const STUDENT_COUNT = 30;
+const studentsGrid = document.getElementById("students-grid");
+const alertsDiv = document.getElementById("alerts");
+const alertSound = document.getElementById("alert-sound");
+
+// -----------------------------
+// Create student cards
+// -----------------------------
+const studentCards = {};
+const riskHistory = {};
+
+for(let i=1;i<=STUDENT_COUNT;i++){
+  const studentId = `student_${i}`;
+
+  const card = document.createElement("div");
+  card.className = "student-card";
+  card.innerHTML = `
+    <h3>${studentId}</h3>
+    <img id="img_${studentId}" src="/public/placeholder.png" alt="${studentId}">
+    <div class="risk-bar"><div id="risk_fill_${studentId}" class="risk-fill"></div></div>
+  `;
+  studentsGrid.appendChild(card);
+
+  studentCards[studentId] = card;
+  riskHistory[studentId] = 0; // for trend bar
+}
+
+// -----------------------------
+// Connect student WebSockets
+// -----------------------------
+for(let i=1;i<=STUDENT_COUNT;i++){
+  const studentId = `student_${i}`;
+  const ws = new WebSocket(`ws://127.0.0.1:8000/ws/student/${studentId}`);
+  ws.binaryType = "arraybuffer";
+
+  ws.onmessage = (event)=>{
+    const bytes = new Uint8Array(event.data);
+    const blob = new Blob([bytes], {type:"image/jpeg"});
+    const url = URL.createObjectURL(blob);
+    document.getElementById(`img_${studentId}`).src = url;
+  };
+}
+
+// -----------------------------
+// Connect Alerts WebSocket
+// -----------------------------
+const alertsWS = new WebSocket("ws://127.0.0.1:8000/ws/alerts");
+
+alertsWS.onmessage = (event)=>{
+  const data = JSON.parse(event.data).data;
+  const studentId = data.student_id;
+  const card = studentCards[studentId];
+
+  // Update risk border
+  card.classList.remove("risk-high","risk-medium","risk-low");
+  if(data.level==="HIGH") card.classList.add("risk-high");
+  else if(data.level==="MEDIUM") card.classList.add("risk-medium");
+  else card.classList.add("risk-low");
+
+  // Update risk trend bar
+  const fill = document.getElementById(`risk_fill_${studentId}`);
+  riskHistory[studentId] = Math.min(100, riskHistory[studentId]+(data.level==="HIGH"?3:data.level==="MEDIUM"?2:1));
+  fill.style.width = riskHistory[studentId] + "%";
+  fill.style.background = data.level==="HIGH"?"#ef4444":data.level==="MEDIUM"?"#f97316":"#22c55e";
+
+  // Play alert sound for HIGH risk
+  if(data.level==="HIGH") alertSound.play();
+
+  // Add alert to panel
+  const div = document.createElement("div");
+  div.className = "alert";
+  div.innerHTML = `
+    <img src="data:image/jpeg;base64,${data.frame}" alt="snapshot">
+    <div class="info">
+      <div><strong>${studentId}</strong> - <span class="level-${data.level.toLowerCase()}">${data.level}</span></div>
+      <div>${data.event}</div>
+      <div>${new Date(data.timestamp*1000).toLocaleTimeString()}</div>
+    </div>
+  `;
+  alertsDiv.prepend(div);
+  if(alertsDiv.children.length>50) alertsDiv.removeChild(alertsDiv.lastChild);
+};
+
+alertsWS.onopen = ()=>console.log("Alerts WS connected");
+alertsWS.onclose = ()=>console.log("Alerts WS disconnected");
+
+</script>
+</body>
+</html>
