@@ -1,54 +1,65 @@
 # -----------------------------
-# 🚀 Backend Framework
+# ⚡ Backend Framework
 # -----------------------------
 fastapi==0.110.0
 uvicorn==0.27.0
 
 # -----------------------------
-# 📷 Computer Vision
+# 🧠 Core Libraries
 # -----------------------------
-opencv-python==4.9.0.80
-numpy==1.26.4
-mediapipe==0.10.9
+numpy>=1.26.4
+pandas>=2.2.0
+scikit-learn>=1.4.0
+python-dotenv>=1.0.0
+pyjwt>=2.9.0
 
 # -----------------------------
-# 🧠 Deep Learning / ML
+# 🖼️ Computer Vision / Deep Learning
 # -----------------------------
-torch==2.2.0
-torchvision==0.17.0
-scikit-learn==1.4.0
-pandas==2.2.0
+opencv-python>=4.9.0.80
+Pillow>=10.2.0
+mediapipe>=0.10.9
+torch>=2.1.0,<2.3.0
+torchvision>=0.16.0,<0.18.0
+tensorflow>=2.12.0   # Required for DeepFace
+deepface>=0.0.86      # Face recognition / verification engine
 
 # -----------------------------
-# 🧠 Object Detection (Optional Advanced)
+# 🎯 Object Detection
 # -----------------------------
-ultralytics==8.1.0
+ultralytics>=8.0.0
 
 # -----------------------------
-# 🎭 Face Recognition
+# 🎤 Audio (Windows users install manually)
 # -----------------------------
-face-recognition==1.3.0
-Pillow==10.2.0
+pyaudio>=0.2.13   # For microphone/audio detection
+webrtcvad>=2.0.10 # Optional voice activity detection
 
 # -----------------------------
-# 🎤 Audio Processing
+# 🌐 API / Streaming / File Upload
 # -----------------------------
-pyaudio==0.2.13
-webrtcvad==2.0.10
+python-multipart>=0.0.9
+websockets>=12.0
 
 # -----------------------------
-# 🌐 API + Streaming + Uploads
+# 🗄️ Database / ORM
 # -----------------------------
-python-multipart==0.0.9
-websockets==12.0
+sqlalchemy>=2.0
+greenlet>=3.0.3
 
 # -----------------------------
-# 🗄️ Database
+# 📊 Visualization / Analytics
 # -----------------------------
-sqlalchemy==2.0.25
+matplotlib>=3.8
+seaborn>=0.13
 
 # -----------------------------
-# 📊 Visualization / Experiments
+# 🔒 Security / Auth
 # -----------------------------
-matplotlib==3.8.2
-seaborn==0.13.2
+passlib>=1.7.4
+bcrypt>=4.0.1
+
+# -----------------------------
+# 🧩 Utilities
+# -----------------------------
+tqdm>=4.66
